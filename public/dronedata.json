@@ -1,0 +1,52 @@
+[
+    {
+        "id": "01",
+        "picture": "src/images/d-1.jpg",
+        "prices": "$450"
+    },
+    {
+        "id": "02",
+        "picture": "src/images/d-2.jpg",
+        "prices": "$450"
+    },
+    {
+        "id": "03",
+        "picture": "src/images/d-3.jpg",
+        "prices": "$450"
+    },
+    {
+        "id": "04",
+        "picture": "src/images/d-4.jpg",
+        "prices": "$450"
+    },
+    {
+        "id": "05",
+        "picture": "src/images/d-5.jpg",
+        "prices": "$450"
+    },
+    {
+        "id": "06",
+        "picture": "src/images/d-6.jpg",
+        "prices": "$450"
+    },
+    {
+        "id": "07",
+        "picture": "src/images/d-7.jpg",
+        "prices": "$450"
+    },
+    {
+        "id": "08",
+        "picture": "src/images/d-8.jpg",
+        "prices": "$450"
+    },
+    {
+        "id": "09",
+        "picture": "src/images/d-9.jpg",
+        "prices": "$450"
+    },
+    {
+        "id": "10",
+        "picture": "src/images/d-10.jpg",
+        "prices": "$450"
+    }
+]
