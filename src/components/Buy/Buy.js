@@ -11,11 +11,14 @@ const Buy = () => {
             .then(res => res.json())
             .then(data => setDrone(data))
     }, [])
+    const removeCart = () => {
+        setCarts([])
+    }
     const handleAddBtn = (drone) => {
         const addToSummary = [...carts, drone];
         setCarts(addToSummary)
     }
-    
+
     return (
         <div className='production' >
             <div className="drone-container">
@@ -38,6 +41,9 @@ const Buy = () => {
                 }
                 <button className='btn-cart-select'
                 >Select Random Drone</button>
+                <button className='btn-cart-select'
+                    onClick={removeCart}
+                >Choose Again</button>
             </div>
         </div >
     );
