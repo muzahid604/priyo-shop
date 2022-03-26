@@ -1,52 +1,52 @@
 [
     {
         "id": "01",
-        "picture": "src/images/d-1.jpg",
+        "picture": "https://ibb.co/2SzfLxh",
         "prices": "$450"
     },
     {
         "id": "02",
-        "picture": "src/images/d-2.jpg",
+        "picture": "https://ibb.co/d41nkDt",
         "prices": "$450"
     },
     {
         "id": "03",
-        "picture": "src/images/d-3.jpg",
+        "picture": "https://ibb.co/0MbzKPW",
         "prices": "$450"
     },
     {
         "id": "04",
-        "picture": "src/images/d-4.jpg",
+        "picture": "https://ibb.co/Kq7cPBj",
         "prices": "$450"
     },
     {
         "id": "05",
-        "picture": "src/images/d-5.jpg",
+        "picture": "https://ibb.co/1R4NCMd",
         "prices": "$450"
     },
     {
         "id": "06",
-        "picture": "src/images/d-6.jpg",
+        "picture": "https://ibb.co/31znRHF",
         "prices": "$450"
     },
     {
         "id": "07",
-        "picture": "src/images/d-7.jpg",
+        "picture": "https://ibb.co/ZLw3jpz",
         "prices": "$450"
     },
     {
         "id": "08",
-        "picture": "src/images/d-8.jpg",
+        "picture": "https://ibb.co/BNwzPS8",
         "prices": "$450"
     },
     {
         "id": "09",
-        "picture": "src/images/d-9.jpg",
+        "picture": "https://ibb.co/B2f8c4k",
         "prices": "$450"
     },
     {
         "id": "10",
-        "picture": "src/images/d-10.jpg",
+        "picture": "https://ibb.co/NNTdkgS",
         "prices": "$450"
     }
 ]
