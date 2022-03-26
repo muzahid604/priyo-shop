@@ -3,6 +3,7 @@ import './Buy.css'
 import Drone from '../Drone/Drone';
 import Cart from '../Cart/Cart';
 const Buy = () => {
+
     const [drones, setDrone] = useState([]);
     const [carts, setCarts] = useState([]);
     useEffect(() => {
@@ -14,6 +15,7 @@ const Buy = () => {
         const addToSummary = [...carts, drone];
         setCarts(addToSummary)
     }
+    
     return (
         <div className='production' >
             <div className="drone-container">
@@ -27,12 +29,15 @@ const Buy = () => {
                 }
             </div>
             <div className="cart-container">
+                <h1>Selected for Buy</h1>
                 {
                     carts.map(cart => <Cart
                         key={cart.id}
                         cart={cart}
                     ></Cart>)
                 }
+                <button className='btn-cart-select'
+                >Select Random Drone</button>
             </div>
         </div >
     );

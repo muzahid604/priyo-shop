@@ -13,6 +13,11 @@
 .details{
     margin-left: 0.5rem;
 }
+.cart-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 .drone img{
 width: 100%;
 height: 80%;
@@ -27,4 +32,7 @@ border-radius: 10px;
     position: absolute;
     bottom: 0;
     border-radius: 0 0 10px 10px;
+}
+.btn-cart:hover{
+    background-color:greenyellow;
 }

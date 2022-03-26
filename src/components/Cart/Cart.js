@@ -1,10 +1,13 @@
 import React from 'react';
-
+import './Cart.css'
 const Cart = (props) => {
-    const { name } = props.cart
+    const { name, picture } = props.cart
     return (
         <div>
-            {name}
+            <div className='cart-div'>
+                <img className='cart-img' src={picture} alt="" />
+                <h5>{name}</h5>
+            </div>
         </div>
     );
 };

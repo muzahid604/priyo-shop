@@ -1,0 +1,13 @@
+.cart-div{
+    display: flex;
+}
+.cart-div h5{
+    margin: 5px 5px;
+    margin-top: 7px;
+}
+.cart-img{
+    width: 30%;
+    margin: 5px 5px;
+;
+    border-radius: 50px;
+}
