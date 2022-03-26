@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Buy.css'
-import Drone from './Drone/Drone';
+import Drone from '../Drone/Drone';
 const Buy = () => {
     const [drones, setDrone] = useState([]);
     useEffect(() => {

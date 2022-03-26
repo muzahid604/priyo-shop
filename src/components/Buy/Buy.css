@@ -1,4 +1,12 @@
 .production{
     display: grid;
     grid-template-columns: 4fr 1fr;
+    margin: 1rem;
+    margin-top: 3rem;
+    
+}
+.drone-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1.5rem;
 }
