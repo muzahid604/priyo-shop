@@ -10,6 +10,9 @@ const Drone = (props) => {
                 <h2>{name}</h2>
                 <h3>{prices}</h3>
             </div>
+            <button className='btn-cart'>
+                <h4>Add To Cart</h4>
+            </button>
         </div>
     );
 };
